@@ -18,10 +18,8 @@ public class Phone {
         System.out.println("Звонит :" + name);
     }
 
-    public void getNumber(int number) {
-        this.number = number;
-
-        System.out.println("Номер телефона :" + number);
+    public int getNumber(int number) {
+        return number;
 
     }
 
